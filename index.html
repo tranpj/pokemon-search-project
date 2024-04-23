@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pokémon Search Project</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+
+<body>
+    <main>
+        <h1>Pokémon Search Project</h1>
+        <div id="pokedex">
+            <div id="top-circles">
+                <div class="blue big-circle">
+                    <div class="circle-dark"></div>
+                    <div class="circle-reflect"></div>
+                    <div class="circle-light"></div>
+                </div>
+                <div class="dark-red medium-circle">
+                    <div class="circle-dark"></div>
+                    <div class="circle-reflect"></div>
+                    <div class="circle-light"></div>
+                </div>
+                <div class="yellow medium-circle">
+                    <div class="circle-dark"></div>
+                    <div class="circle-reflect"></div>
+                    <div class="circle-light"></div>
+                </div>
+                <div class="green medium-circle">
+                    <div class="circle-dark"></div>
+                    <div class="circle-reflect"></div>
+                    <div class="circle-light"></div>
+                </div>
+            </div>
+            <div id="search">
+                <input id="search-input" required />
+                <button id="search-button">Search</button>
+            </div>
+            <div id="screen">
+                <div id="screen-decor-top">
+                    <div class="dark-red small-circle">
+                        <div class="circle-dark"></div>
+                        <div class="circle-reflect"></div>
+                        <div class="circle-light"></div>
+                    </div>
+                    <div class="dark-red small-circle">
+                        <div class="circle-dark"></div>
+                        <div class="circle-reflect"></div>
+                        <div class="circle-light"></div>
+                    </div>
+                </div>
+                <div id="screen-display">
+                    <div id="display-image">
+                        <div id="info">
+                            <p>
+                                <span id="pokemon-name"></span>
+                                #<span id="pokemon-id"></span>
+                            </p>
+                            <p>
+                                Weight: <span id="weight"></span>
+                                Height: <span id="height"></span>
+                            </p>
+                        </div>
+                        <div id="image"></div>
+                        <div id="types"></div>
+                    </div>
+                    <div id="display-stats">
+                        <table>
+                            <tr>
+                                <th>Base</th>
+                                <th>Stats</th>
+                            </tr>
+                            <tr>
+                                <th>HP</th>
+                                <th id="hp"></th>
+                            </tr>
+                            <tr>
+                                <th>Attack</th>
+                                <th id="attack"></th>
+                            </tr>
+                            <tr>
+                                <th>Defense</th>
+                                <th id="defense"></th>
+                            </tr>
+                            <tr>
+                                <th>SP Attack</th>
+                                <th id="special-attack"></th>
+                            </tr>
+                            <tr>
+                                <th>SP Defense</th>
+                                <th id="special-defense"></th>
+                            </tr>
+                            <tr>
+                                <th>Speed</th>
+                                <th id="speed"></th>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div id="screen-decor-bottom">
+                    <div id="screen-decor-bottom-chamfer"></div>
+                    <div id="screen-decor-bottom-circle" class="dark-red medium-circle">
+                        <div class="circle-dark"></div>
+                        <div class="circle-reflect"></div>
+                        <div class="circle-light"></div>
+                    </div>
+                    <div id="screen-decor-bottom-lines">
+                        <div class="decor-line"></div>
+                        <div class="decor-line"></div>
+                        <div class="decor-line"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
